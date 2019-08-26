@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2DO-VJSMVCLS-Bootstrap</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h3>To Do Task</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="taskName"><b>Task:</b></label>
+                        <input type="text" placeholder="Give a name to your task" id="taskName" name="taskName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="taskInformation"><b>Task Information:</b></label>
+                        <textarea class="form-control" placeholder="Give some details about your task" id="taskInformation" name="taskInformation" rows="5"></textarea>
+                    </div>
+                    <button class="btn btn-danger float-right" id="taskSubmitButton">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm">
+                <h3>To Do Tasks List</h3>
+                <div class="input-group mb-3" id="todoListContainer">
+                    Loading...
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+<!--    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+<!--        <div class="modal-dialog" role="document">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="modalHeader">Modal title</h5>-->
+<!--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--                        <span aria-hidden="true">&times;</span>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--                <div class="modal-body" id="modalBody">-->
+<!--                    Loading...-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+</body>
+</html>
