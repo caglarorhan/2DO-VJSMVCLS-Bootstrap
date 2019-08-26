@@ -1,0 +1,23 @@
+{
+  "name": "2do-vjsmvcls-bootstrap",
+  "version": "1.0.0",
+  "description": "To Do app with vanilla js in MVC structure using local storage. Dressed with bootstrap css classes.",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caglarorhan/2DO-VJSMVCLS-Bootstrap.git"
+  },
+  "author": "Caglar Orhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caglarorhan/2DO-VJSMVCLS-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/caglarorhan/2DO-VJSMVCLS-Bootstrap#readme"
+}
